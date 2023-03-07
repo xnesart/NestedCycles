@@ -61,11 +61,11 @@ namespace NestedCycles
             int currentA = 0;
             int currentB = 0;
 
-            for (int i = 0; i < userEnterAString.Length; i++)
+            for (int i = 0; i <= userEnterAString.Length; i++)
             {
                 currentA = userEnterA % 10;
                 userEnterA /= 10;
-                for (int j = 0; j < userEnterBString.Length; j++)
+                for (int j = 0; j <= userEnterBString.Length; j++)
                 {
                     currentB = userEnterB % 10;
                     userEnterB /= 10;
